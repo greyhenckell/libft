@@ -1,0 +1,2 @@
+# libft
+creating C library
