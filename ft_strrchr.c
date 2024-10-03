@@ -1,5 +1,5 @@
-#include <string.h>
-#include <stdio.h>
+// #include <string.h>
+// #include <stdio.h>
 
 char *ft_strrchr(const char *s, int c)
 {
@@ -23,8 +23,8 @@ char *ft_strrchr(const char *s, int c)
 
     return p + pos;
 }
-
+/*
 int main()
 {
     printf("%s\n", ft_strrchr("hola_b_a_como", '\0'));
-}
+}*/
