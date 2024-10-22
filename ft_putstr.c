@@ -1,4 +1,3 @@
-//----Testing----
 #include <unistd.h>
 
 int ft_strlen(char *str)
@@ -15,9 +14,3 @@ void ft_putstr(char *src)
 {
     write(1, src, ft_strlen(src));
 }
-/*
-int main()
-{
-    ft_putstr("hola hiver!\n");
-}
-*/
