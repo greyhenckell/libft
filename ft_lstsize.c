@@ -4,10 +4,12 @@
 
 int ft_lstsize(t_list *lst)
 {
+    t_list *ind;
     int i = 0;
-    while (lst != NULL)
+    ind = lst;
+    while (ind != NULL)
     {
-        lst = lst->next;
+        ind = ind->next;
         i++;
     }
     return i;
